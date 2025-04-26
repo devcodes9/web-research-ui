@@ -56,7 +56,7 @@ export default function App() {
 
 		try {
 			const res = await fetch(
-				`${process.env.REACT_APP_BACKEND_URL}/execute-research`,
+				`${process.env.VITE_BACKEND_URL}/execute-research`,
 				{
 					method: "POST",
 					headers: { "Content-Type": "application/json" },
