@@ -139,6 +139,18 @@ export default function App() {
 					</div>
 				</div>
 			)}
+			<footer className="text-center mt-10 text-gray-500">
+				Created by Dev Dalia. Check out the code on{" "}
+				<a
+					href="https://github.com/devcodes9/web-research-agent"
+					className="text-blue-600 underline"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					GitHub
+				</a>
+				.
+			</footer>
 		</div>
 	);
 }
