@@ -56,7 +56,7 @@ export default function App() {
 
 		try {
 			const res = await fetch(
-				`${process.env.VITE_BACKEND_URL}/execute-research`,
+				"https://web-research-agent-nd8o.onrender.com/execute-research",
 				{
 					method: "POST",
 					headers: { "Content-Type": "application/json" },
